@@ -1,7 +1,5 @@
 FROM bitboxonline/docker-android-sdk:latest
 
-ARG FLUTTER_VERSION="1.17.1"
-
 RUN apt-get update
 
 # Installing missing prerequisites for Flutter
