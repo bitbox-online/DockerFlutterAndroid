@@ -1,4 +1,4 @@
-FROM bitboxonline/docker-android-sdk:latest
+FROM bitboxonline/docker-android-sdk:1.0
 
 RUN apt-get update
 
