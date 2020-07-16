@@ -24,3 +24,7 @@ RUN apt-get -y install npm
 
 # Install Xunit Viewer
 RUN npm i -g xunit-viewer
+
+# Install lcov to convert flutter coverage report to html
+RUN apt-get update
+RUN apt-get -y install lcov
