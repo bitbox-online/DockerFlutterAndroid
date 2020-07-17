@@ -1,9 +1,6 @@
-FROM bitboxonline/docker-android-sdk:1.2
+FROM bitboxonline/docker-android-sdk:1.3
 
 RUN apt-get update
-
-# Installing missing prerequisites for Flutter
-RUN apt-get -y install curl
 
 # Installing Flutter
 RUN git clone https://github.com/flutter/flutter.git -b stable --depth 1
