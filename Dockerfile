@@ -20,7 +20,7 @@ RUN apt-get -y install npm
 RUN npm install -g n
 RUN n latest
 RUN npm install -g npm
-RUN hash -d npm
+RUN hash npm
 
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
